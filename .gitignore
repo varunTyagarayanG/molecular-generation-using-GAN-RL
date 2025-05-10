@@ -6,8 +6,9 @@ __pycache__/
 .ipynb_checkpoints/
 
 # Ignore generated files
-*.txt
-
+generated_smiles.txt
+new_molecules.txt
+old_molecules.txt
 # Ignore virtual environment
 venv/
 
