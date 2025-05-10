@@ -1,19 +1,19 @@
-allennlp==2.10.1
-
 torch==1.12.1+cu116
 torchvision==0.13.1+cu116
 torchaudio==0.12.1
 
-spacy==3.3.3
+spacy==2.3.7
+thinc==7.4.5
 transformers==4.20.1
+allennlp==2.10.1
+
 pydantic==1.8.2
 typing-extensions==4.5.0
-thinc==8.0.17
-
 numpy
 scipy
 matplotlib
 tqdm
+
 rdkit
 
-
+-f https://download.pytorch.org/whl/cu116/torch_stable.html

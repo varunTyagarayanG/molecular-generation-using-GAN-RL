@@ -1,32 +1,34 @@
-# Ignore Python cache files
+# Byte-compiled / optimized / DLL files
 __pycache__/
-*.pyc
+*.py[cod]
+*.pyo
 
-# Ignore Jupyter Notebook checkpoints
+# Jupyter Notebook checkpoints
 .ipynb_checkpoints/
 
-# Ignore generated files
+# Environment files
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Dependency directories
+node_modules/
+dist/
+build/
+
+# Dataset and generated files
+qm9.csv
 generated_smiles.txt
 new_molecules.txt
 old_molecules.txt
-# Ignore virtual environment
-venv/
 
-# Ignore system files
-.DS_Store
-Thumbs.db
-
-# Ignore logs
+# Logs and temporary files
 *.log
-
-# Ignore temporary files
 *.tmp
 *.bak
-*.swp
-*.swo
 
-# Ignore compiled files
-*.so
-*.dll
-*.dylib
-*.exe
+# OS-specific files
+.DS_Store
+Thumbs.db
